@@ -47,13 +47,15 @@ public class Main {
         FileReader reader = new FileReader("Alphabets.txt");
         Scanner sc = new Scanner(reader);
 
-        while (sc.hasNextLine()){
-            System.out.println(sc.nextLine());
+        for (int i =1; i<37;  i++){
 
-
-
-
+            System.out.println(i+": "+sc.nextLine());
         }
+
+
+
+
+
 
     }
 }
